@@ -15,8 +15,6 @@ client host: 3000
 
 ## Launch:
 
-cd Planetari
-
 docker-compose up
 
 ## Stop:
