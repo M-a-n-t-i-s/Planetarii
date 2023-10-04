@@ -1,0 +1,23 @@
+version: "3.8"
+
+services:
+  server:
+    build: ./server
+    container_name: ruslankorolev_server
+    image: ruslankorolev/server_planetarii
+    ports:
+      - '4444:4444'
+
+  client:
+    build: ./client
+    container_name: ruslankorolev_client
+    image: ruslankorolev/client_planetarii
+    ports:
+      - '3000:3000'
+    stdin_open: true
+    tty: true
+
+
+
+
+

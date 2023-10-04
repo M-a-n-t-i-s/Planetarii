@@ -1,0 +1,546 @@
+/*.headerTitle {*/
+/*    width: 895.39px;*/
+/*    height: 35px;*/
+/*    margin-top: 115px;*/
+/*    margin-left: 0;*/
+/*    font-family: Helvetica;*/
+/*    font-weight: 400;*/
+/*    font-size: 35px;*/
+/*    line-height: 48.3px;*/
+/*    text-align: left;*/
+
+/*}*/
+
+/*.addFactoryButton {*/
+/*    width: 895.39px;*/
+/*    height: 65px;*/
+/*    margin-top: 217.35px;*/
+
+/*    position: absolute;*/
+/*    background-color: rgba(46, 46, 46, 1);*/
+
+/*    box-shadow: inset 0px 3px 6px 0px rgba(0, 0, 0, 0.25);*/
+/*    filter: drop-shadow(0px 3px 4px rgba(75, 75, 75, 0.25));*/
+/*    border-radius: 13px;*/
+/*    display: flex;*/
+/*    justify-content: space-between;*/
+/*    align-items: center;*/
+/*    font-family: Helvetica;*/
+/*    padding-right: 30px;*/
+/*    padding-left: 30px;*/
+
+/*    font-weight: 400;*/
+/*    font-size: 16px;*/
+/*    line-height: 22.08px;*/
+
+/*}*/
+
+/*.addFactoryButton:hover {*/
+/*    box-shadow: 0 0 5px 2px rgba(221, 221, 221, 1);*/
+/*}*/
+
+/*.factoriesPane {*/
+/*    position: absolute;*/
+/*    width: 895.39px;*/
+/*    margin-top: 294.35px;*/
+/*    padding-bottom: 30px;*/
+
+/*}*/
+
+/*.recordFactory {*/
+/*    width: 895.39px;*/
+/*    height: 65px;*/
+/*    border-radius: 13px;*/
+/*    background: linear-gradient(rgba(77, 77, 77, 1), rgba(55, 55, 55, 1));*/
+/*    margin-bottom: 15px;*/
+/*    filter: drop-shadow(-4px 4px 10px rgba(0, 0, 0, 0.14));*/
+/*    box-shadow: inset 3px 4px 4px 0px rgba(214, 214, 214, 0.03);*/
+/*    display: flex;*/
+/*    justify-content: space-between;*/
+/*    align-items: center;*/
+/*    padding-left: 24.4px;*/
+/*    padding-right: 24.4px;*/
+/*    color: rgba(255, 255, 255, 1);*/
+
+/*    font-size: 16px;*/
+/*    font-family: Helvetica;*/
+/*    line-height: 22.08px;*/
+/*}*/
+
+/*.recordName {*/
+
+/*    font-weight: 400;*/
+/*    width: 177.44px;*/
+
+/*}*/
+
+/*.recordIndex {*/
+/*    width: 58.39px;*/
+/*}*/
+
+/*.recordHost {*/
+/*    width: 200.39px;*/
+/*}*/
+
+/*.recordButtons button {*/
+/*    height: 27px;*/
+/*    border-radius: 27px;*/
+/*    width: 105px;*/
+/*    filter: drop-shadow(-4px 4px 10px rgba(0, 0, 0, 0.14));*/
+/*    box-shadow: 3px 4px 4px 0px rgba(214, 214, 214, 0.03);*/
+
+/*}*/
+
+/*.editButton {*/
+/*    background-color: rgba(81, 171, 50, 1);*/
+/*}*/
+
+/*.editButton:hover {*/
+/*    box-shadow: 0 0 5px 2px rgba(221, 221, 221, 1);*/
+/*}*/
+
+
+/*.deleteButton {*/
+/*    background-color: rgba(74, 74, 74, 1);*/
+/*    margin-left: 10px;*/
+/*}*/
+
+/*.deleteButton:hover {*/
+/*    box-shadow: 0 0 5px 2px rgba(221, 221, 221, 1);*/
+/*}*/
+/*.panel {*/
+/*    margin-top: 35px;*/
+/*    width: 443px;*/
+/*    height: 291px;*/
+/*    border-radius: 13px;*/
+/*    background: linear-gradient(197.95deg, #4D4D4D 4.37%, #373737 103.8%);*/
+/*    box-shadow: -4px 4px 10px 0px rgba(0, 0, 0, 0.14);*/
+/*    box-shadow: 3px 4px 4px 0px rgba(214, 214, 214, 0.03) inset;*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    padding: 39.65px;*/
+
+/*    justify-content: space-between;*/
+
+/*}*/
+/*.mainForm {*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    justify-content: space-between;*/
+/*    height: 100vh;*/
+
+
+/*}*/
+/*.bigInput {*/
+/*    width: 310px;*/
+/*    height: 30px;*/
+/*    border-radius: 13px;*/
+/*    background: rgba(46, 46, 46, 1);*/
+/*    box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.25) inset;*/
+/*    box-shadow: 0px 3px 4px 0px rgba(75, 75, 75, 0.25);*/
+
+/*}*/
+/*.hostInputs {*/
+/*    display: flex;*/
+
+/*}*/
+/*.hostInputs label {*/
+/*    align-self: flex-end;*/
+/*    padding-left: 2px;*/
+/*    padding-right: 2px;*/
+/*}*/
+/*.hostInputs input {*/
+/*    background: rgba(46, 46, 46, 1);*/
+/*    box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.25) inset;*/
+/*    border-radius: 13px;*/
+/*    width: 76.06px;*/
+/*    height: 30px;*/
+/*    text-align: center;*/
+/*    box-shadow: 0px 3px 4px 0px rgba(75, 75, 75, 0.25);*/
+
+/*}*/
+/*input {*/
+/*    padding-left: 15px;*/
+/*    padding-right: 15px;*/
+/*}*/
+/*input::-webkit-outer-spin-button,*/
+/*input::-webkit-inner-spin-button {*/
+
+/*    -webkit-appearance: none;*/
+/*    margin: 0;*/
+/*}*/
+
+/*.footer {*/
+/*    align-self: center;*/
+/*    margin-bottom: 68.52px;*/
+/*    display: flex;*/
+/*    justify-content: space-between;*/
+/*    width: 340px;*/
+/*}*/
+
+/*.footer input {*/
+/*    border-radius: 27px;*/
+/*    height: 42.29px;*/
+/*    width: 155.13px;*/
+/*    font-family: Helvetica;*/
+/*    font-size: 18px;*/
+/*    font-weight: 400;*/
+/*    line-height: 25px;*/
+/*    letter-spacing: 0em;*/
+
+/*}*/
+/*.footer input:hover {*/
+/*    box-shadow: 0 0 5px 2px rgba(221, 221, 221, 1);*/
+/*}*/
+/*.saveButton {*/
+
+/*    background: rgba(81, 171, 50, 1) !important;*/
+/*}*/
+
+/*.cancelButton {*/
+/*    background: rgba(74, 74, 74, 1);*/
+/*}*/
+/*.mainForm label{*/
+/*    font-family: Helvetica;*/
+/*    font-size: 16px;*/
+/*    font-weight: 400;*/
+/*    line-height: 22px;*/
+/*    letter-spacing: 0em;*/
+/*    text-align: left;*/
+
+/*}*/
+
+
+.headerTitle {
+    width: 46.61vw;
+    height: 1.82vw;
+    margin-top: 5.99vw;
+    margin-left: 0;
+    font-family: Helvetica;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 48.3px;
+    text-align: left;
+
+}
+
+.addFactoryButton {
+    width: 46.61vw;
+    height: 65px;
+    margin-top: 11.30vw;
+
+    position: absolute;
+    background-color: rgba(46, 46, 46, 1);
+
+    box-shadow: inset 0px 3px 6px 0px rgba(0, 0, 0, 0.25);
+    filter: drop-shadow(0px 3px 4px rgba(75, 75, 75, 0.25));
+    border-radius: 13px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Helvetica;
+    padding-right: 1.56vw;
+    padding-left: 1.56vw;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22.08px;
+
+}
+
+.addFactoryButton:hover {
+    box-shadow: 0 0 5px 2px rgba(221, 221, 221, 1);
+}
+
+.factoriesPane {
+    position: absolute;
+    width: 46.61vw;
+    margin-top: 294.35px;;
+    padding-bottom: 1.56vw;
+
+}
+
+.recordFactory {
+    width: 46.61vw;
+    height: 65px;
+    border-radius: 13px;
+    background: linear-gradient(rgba(77, 77, 77, 1), rgba(55, 55, 55, 1));
+    margin-bottom: 15px;
+    filter: drop-shadow(-4px 4px 10px rgba(0, 0, 0, 0.14));
+    box-shadow: inset 3px 4px 4px 0 rgba(214, 214, 214, 0.03);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 1.25vw;
+    padding-right: 1.25vw;
+    color: rgba(255, 255, 255, 1);
+
+    font-size: 16px;
+    font-family: Helvetica;
+    line-height: 22.08px;
+}
+
+.recordName {
+
+    font-weight: 400;
+    width: 9.22vw;
+
+}
+
+.recordIndex {
+    width: 3.02vw;
+}
+
+.recordHost {
+    width: 10.42vw;
+}
+
+.recordButtons button {
+    height: 27px;
+    border-radius: 27px;
+    width: 105px;
+    font-size: 12px;
+    filter: drop-shadow(-4px 4px 10px rgba(0, 0, 0, 0.14));
+    box-shadow: 3px 4px 4px 0 rgba(214, 214, 214, 0.03);
+
+}
+
+.editButton {
+    background-color: rgba(81, 171, 50, 1);
+}
+
+.editButton:hover {
+    box-shadow: 0 0 5px 2px rgba(221, 221, 221, 1);
+}
+
+
+.deleteButton {
+    background-color: rgba(74, 74, 74, 1);
+    margin-left: 0.52vw;
+}
+
+.deleteButton:hover {
+    box-shadow: 0 0 5px 2px rgba(221, 221, 221, 1);
+}
+.panel {
+    margin-top: 35px;
+    width: 443px;
+    height: 291px;
+    border-radius: 13px;
+    background: linear-gradient(197.95deg, #4D4D4D 4.37%, #373737 103.8%);
+    box-shadow: -4px 4px 10px 0px rgba(0, 0, 0, 0.14);
+    box-shadow: 3px 4px 4px 0px rgba(214, 214, 214, 0.03) inset;
+    display: flex;
+    flex-direction: column;
+    padding: 39.65px;
+
+    justify-content: space-between;
+
+}
+.mainForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+
+}
+.bigInput {
+    width: 310px;
+    height: 30px;
+    border-radius: 13px;
+    background: rgba(46, 46, 46, 1);
+    box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.25) inset;
+    box-shadow: 0px 3px 4px 0px rgba(75, 75, 75, 0.25);
+
+}
+.hostInputs {
+    display: flex;
+
+}
+.hostInputs label {
+    align-self: flex-end;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+.hostInputs input {
+    background: rgba(46, 46, 46, 1);
+    box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.25) inset;
+    border-radius: 13px;
+    width: 76.06px;
+    height: 30px;
+    text-align: center;
+    box-shadow: 0px 3px 4px 0px rgba(75, 75, 75, 0.25);
+
+}
+input {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.footer {
+    align-self: center;
+
+    display: flex;
+    justify-content: space-between;
+    width: 340px;
+    margin-top: 3.54vw;
+}
+
+.footer input {
+    border-radius: 27px;
+    height: 42.29px;
+    width: 155.13px;
+    font-family: Helvetica;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    margin-bottom: 3.54vw;
+
+}
+.footer input:hover {
+    box-shadow: 0 0 5px 2px rgba(221, 221, 221, 1);
+}
+.saveButton {
+
+    background: rgba(81, 171, 50, 1) !important;
+}
+
+.cancelButton {
+    background: rgba(74, 74, 74, 1);
+}
+.mainForm label{
+    font-family: Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+
+@media (max-width: 1200px) {
+    .addFactoryButton {
+        margin-top: 12.30vw;
+    }
+
+    .factoriesPane {
+        margin-top: 19.31vw;
+    }
+    .recordFactory {
+        flex-direction: column;
+        height: 200px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .recordName {
+        width: inherit;
+        display: flex;
+        justify-content: center;
+    }
+    .recordIndex {
+        width: inherit;
+        display: flex;
+        justify-content: center;
+    }
+    .recordHost {
+        width: inherit;
+        display: flex;
+        justify-content: center;
+    }
+    .recordButtons{
+        width: inherit;
+        display: flex;
+        justify-content: center;
+    }
+}
+@media (max-width: 1000px) {
+    .addFactoryButton {
+        margin-top: 13.30vw;
+    }
+
+    .factoriesPane {
+        margin-top: 23.31vw;
+    }
+
+}
+@media (max-width: 768px) {
+    .addFactoryButton {
+        margin-top: 15.30vw;
+    }
+
+    .factoriesPane {
+        margin-top: 29.31vw;
+
+    }
+    .panel {
+
+        margin-top: 150px;
+
+    }
+
+
+}
+@media (max-width: 480px) {
+    .addFactoryButton {
+        margin-top: 25.30vw;
+    }
+
+    .factoriesPane {
+        margin-top: 55.31vw;
+    }
+    .recordButtons button {
+        width: inherit;
+    }
+    .recordButtons {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+
+    }
+    .footer {
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px
+    }
+
+    .headerTitle {
+        padding-left: 10vw;
+        padding-right: 10vw;
+        width: auto;
+    }
+    .mainForm {
+        width: 100vw;
+    }
+    .panel {
+       width: auto;
+        margin-top: 150px;
+        margin-left: 5px;
+        margin-right: 5px;
+        height: auto;
+    }
+    .panel label, .bigInput, .hostInputs {
+        width: auto;
+    }
+    .hostInputs {
+        display: flex;
+        flex-direction: column;
+        width: auto;
+    }
+    .hostInputs label {
+        width: 100%;
+    }
+    .hostInputs input {
+        width:  auto;
+    }
+
+}
