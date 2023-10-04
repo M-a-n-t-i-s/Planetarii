@@ -14,13 +14,19 @@ client host: 3000
 
 
 ## Launch:
-Open cmd in current project folder.
+Open cmd.
 
 In cmd to write:
+
+cd < path to folder project >
+
 docker-compose up
 
 ## Stop:
-Open cmd in current project folder.
+Open cmd.
 
 In cmd to write:
+
+cd < path to folder project >
+
 docker-compose stop
