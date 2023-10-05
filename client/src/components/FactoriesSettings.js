@@ -11,6 +11,7 @@ const FactoriesSettings =(props)=> {
     let [host3,setHost3] =useState('')
     let [host4,setHost4] =useState('')
 
+
     let head
     if (props.isNew) {
         head = 'Добавить завод'
@@ -18,10 +19,11 @@ const FactoriesSettings =(props)=> {
     else {
         head='Редактировать завод'
     }
-    const saveData =()=>{
+    const saveData = (e)=>{
         if (host1!=='' && host2!=='' && host3!=='' && host4!=='' && name!=='' && index!==''){
-
+            e.preventDefault()
             if (props.isNew) {
+
                 axios.post('http://localhost:4444/factory',{
                     name: name,
                     index: index,
@@ -30,32 +32,50 @@ const FactoriesSettings =(props)=> {
                     (res)=> {
                         if(res.data.success === true){
                             console.log("Данные записались")
+                            props.setClick(props.click+1)
+                            props.setStatus('Table')
+
                         } else {
-                            console.log("Данные не записались")
+
+                            alert("Данные не записались")
+
+
                         }
 
                     }
-                ).catch(e=>console.log(e))
+                ).catch(er=>alert(`Данные не отправились. ${er}`))
 
             }
             else {
 
-                axios.patch(`http://localhost:4444/factory/${props.id}`,{
+                 axios.patch(`http://localhost:4444/factory/${props.id}`,{
                     name: name,
                     index: index,
                     host: String(host1)+'.'+String(host2)+'.'+String(host3)+'.'+String(host4)
                 }).then(
                     (res)=> {
+
                         if(res.data.success === true){
                             console.log("Данные отредактированы")
+                            props.setClick(props.click+1)
+                            props.setStatus('Table')
+
+
+
                         } else {
-                            console.log("Данные не отредактированы")
+
+                            alert("Данные не отредактированы")
+
+
                         }
 
                     }
-                ).catch(e=>console.log(e))
+                ).catch(er=>alert(`Данные не отправились. ${er}`))
 
             }
+        } else {
+            alert("Остались пустые поля")
+            e.preventDefault()
         }
 
 
@@ -91,7 +111,7 @@ const FactoriesSettings =(props)=> {
 
             <div className={s.footer}>
                 <input type="button" className={s.cancelButton} value={"Отмена"} onClick={()=>props.setStatus('Table')}/>
-                <input type="submit" className={s.saveButton} value={"Сохранить"} onClick={saveData}/>
+                <input type="submit" className={s.saveButton} value={"Сохранить"} onClick={(e)=>{saveData(e)} }/>
             </div>
         </form>
 

@@ -5,11 +5,14 @@ import s from './Factories.module.css'
 import FactoriesSettings from "../FactoriesSettings";
 
 
-const Factories =()=> {
+
+const Factories =(props)=> {
     const [factories, setFactories]=useState([])
     const [status, setStatus]=useState('Table')
     const [id, setId]=useState('')
     const [current, setCurrent]=useState(false)
+    const [click,setClick] =useState(0)
+
 
 
 
@@ -22,7 +25,7 @@ const Factories =()=> {
             }
         )
 
-    },[current])
+    },[current, click])
 
     const addNewFactory=()=>{
         setStatus('Add')
@@ -71,10 +74,14 @@ const Factories =()=> {
 
         }
         case 'Add': {
-            return <FactoriesSettings isNew={true}  setStatus={setStatus}/>
+            return  <FactoriesSettings isNew={true} setClick={setClick} click={click} setCurrent={setCurrent} setStatus={setStatus} />
+
+
         }
         case 'Edit': {
-            return <FactoriesSettings isNew={false}  setStatus={setStatus} id={id}/>
+            return <FactoriesSettings isNew={false} setClick={setClick} click={click} setStatus={setStatus} setCurrent={setCurrent} id={id}/>
+
+
         }
         default: {
             return <h1>Error</h1>
